@@ -27,7 +27,7 @@ const Mynavbar = () => {
                 <Nav.Link href = "/"  >Home</Nav.Link>
                 <Nav.Link href="#about">About</Nav.Link>
                 
-                <Nav.Link href="#projects">Projects</Nav.Link>
+                <Nav.Link as={Link} to = "/projects">Projects</Nav.Link>
 
                 <Nav.Link as={Link} to = "/Skills">Skills</Nav.Link>
                
@@ -38,10 +38,6 @@ const Mynavbar = () => {
             </Navbar.Collapse>
             </Navbar>
 
-
-         
-           
-          
         </div>
 
     )

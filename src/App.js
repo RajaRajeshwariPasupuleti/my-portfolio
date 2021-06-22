@@ -17,6 +17,8 @@ import Skills from './pages/about/Tech-Skills/Tech-Skills.component';
 
 import Experience from "./pages/about/work-experience/work-experience.component";
 
+import Projects from './pages/about/Projects/projects.components';
+
 
 
 import {
@@ -44,6 +46,7 @@ function App() {
                 
                 <Route path="/Skills"><Skills /></Route>
                 <Route path = "/experience"><Experience /> </Route>
+                <Route path = "/projects"><Projects /> </Route>
                 <Route path = "/">
                   <>
                 
