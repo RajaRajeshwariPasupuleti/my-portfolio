@@ -1,0 +1,24 @@
+
+    
+ @import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+
+
+  .about {
+    font-size: 1.4rem;
+    font-family:  'Righteous', cursive;
+    object-fit:cover;
+  }
+
+  .profile {
+    max-width: 900px;
+    
+  }
+
+
+  .my-details {
+    text-align: justify;
+    margin: auto;
+    width: 600px;
+    background-color: #F9FAFB;
+    background: center;
+  }

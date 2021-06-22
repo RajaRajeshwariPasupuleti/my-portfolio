@@ -5,12 +5,14 @@ import Slide1 from '../../assests/icons/Slide1.jpg'
 import Slide2 from '../../assests/icons/Slide2.jpg'
 import Slide3 from '../../assests/icons/Slide3.jpg'
 
+import ScrollDown from '../scroll-down/scroll-down.component'
+
 import "./my-carousal.style.css";
 
 
 const MyCarousal = () => {
     return (
-        <div>
+        <div id = "home">
         <Carousel controls = {false} indicators interval = {2500} pauseOnHover = {false}>
             <Carousel.Item >
                 <img
@@ -34,6 +36,7 @@ const MyCarousal = () => {
                 />
             </Carousel.Item>
         </Carousel>
+        <ScrollDown />
         </div>
     )
 }
