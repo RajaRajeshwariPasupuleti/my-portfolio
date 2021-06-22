@@ -14,10 +14,10 @@ const Skills = () => {
     return (
         <div>
 
-            <h1 className="text-center pb-5">TECHNOLOGY STACK</h1>
+            <h1 className="text-center textAlign">TECHNOLOGY STACK</h1>
 
-            <CardDeck>
-                <Row className="d-flex">
+            <CardDeck ALIGIN = "center">
+                <Row className="d-flex justify-content-around">
 
                     {/* Frontend */}
                     <Col md={4}>
