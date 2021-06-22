@@ -19,6 +19,9 @@ import Experience from "./pages/about/work-experience/work-experience.component"
 
 import Projects from './pages/about/Projects/projects.components';
 
+import Contact from './pages/about/contact-form/contactform.component';
+
+import FooterPanel from './components/my-footer/footer.component';
 
 
 import {
@@ -33,15 +36,9 @@ function App() {
   return (
     <div className="App">
       <Mynavbar /> 
-     <>
-     </>
-      {/* <div>
-        <Container className="container-box rounded">
-          <Fade interval={500} >
-            <Skills />
-          </Fade>
-        </Container>
-      </div> */}
+       
+      
+
       <Switch>
                 
                 <Route path="/Skills"><Skills /></Route>
@@ -51,7 +48,7 @@ function App() {
                   <>
                 
                     <MyCarousal />
-                    <Mytitlemessage />
+                    <Mytitlemessage />                
                     <ScrollDown />
 
                     <div>
@@ -70,7 +67,8 @@ function App() {
                         </div>
                       </Parallax>
                     </div>
-
+                    <Contact />
+                    <FooterPanel />
                   </>
                 </Route>
       </Switch>
