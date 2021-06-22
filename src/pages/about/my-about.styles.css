@@ -6,7 +6,7 @@
   .about {
     font-size: 1.4rem;
     font-family:  'Righteous', cursive;
-    object-fit:cover;
+
   }
 
   .profile {
@@ -20,5 +20,4 @@
     margin: auto;
     width: 600px;
     background-color: #F9FAFB;
-    background: center;
   }

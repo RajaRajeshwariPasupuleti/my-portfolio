@@ -1,0 +1,18 @@
+.focus {
+    transition: transform 0.3s;
+  }
+  
+  .focus:hover {
+    transform: scale(1.05);
+  }
+  
+  .card-title {
+    font-size: 2em;
+    font-weight: 700;
+    background:lightblue;
+  }
+ 
+.complete {
+  background:cornflowerblue;
+  
+}
